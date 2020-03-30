@@ -16,7 +16,7 @@ gem 'faraday'
 group :development, :test do
   gem 'pry'
   gem 'awesome_print'
-  gem 'rspec-rails'
+  gem 'selenium-webdriver'
 end
 
 group :test do

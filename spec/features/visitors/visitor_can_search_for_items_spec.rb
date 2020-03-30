@@ -5,5 +5,6 @@ describe 'As a visitor', :js do
     visit '/'
     
     fill_in 'q', with: 'sweet potatoes'
+    click_link 'Search'
   end
 end

@@ -17,6 +17,9 @@ group :development, :test do
   gem 'pry'
   gem 'awesome_print'
   gem 'selenium-webdriver'
+  gem 'webdrivers'
+  gem 'shoulda-matchers'
+  gem 'figaro'
 end
 
 group :test do
